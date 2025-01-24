@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "telegramm-bot-fastapi-data-collector"
+version = "0.1.0"
+description = ""
+authors = ["denisbelenko <denisdel123@>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.7"
+aiogram = "^3.17.0"
+pydantic = "^2.10.6"
+asyncpg = "^0.30.0"
+sqlalchemy = "^2.0.37"
+uvicorn = "^0.34.0"
+python-jose = "^3.3.0"
+python-dotenv = "^1.0.1"
+flake8 = "^7.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
